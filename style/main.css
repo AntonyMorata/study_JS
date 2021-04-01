@@ -1,0 +1,230 @@
+body {
+	font-family: Arial,Tahoma,  sans-serif;
+	color: #272c2f;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+div, p, form, input, a, span, b, textarea {
+	box-sizing: border-box;
+}
+
+p {
+	margin: 0;
+	line-height: 1.5em;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+}
+
+h1, h2, h3, h4 ,h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	font-size: 23px;
+	margin: 70px 0 18px 0;
+	text-transform: uppercase
+}
+
+h2 {
+	font-size: 19px;
+	margin-bottom: 40px;
+	text-transform: uppercase
+}
+
+h3 {
+	font-size: 17px;
+}
+
+.header {
+
+}
+
+.header .container {
+	
+}
+
+.navigation {
+	padding: 31px 0 34px 0;
+	background: #455991;
+	color: #fff;
+}
+
+.first {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.menu {
+	display: flex;
+}
+.menu li {
+	margin-right: 29px;
+}
+
+.menu li a {
+	font-size: 15px;
+	color: #fff;
+}
+
+.order {
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+}
+
+.title {
+	background: #4c2deb;
+	display: inline;
+}
+
+.intro {
+	font-size: 14px;
+	color: #828899;
+}
+
+.test {
+	display: flex;
+	justify-content: space-between;
+	font-size: 15px;
+}
+
+.test h3 {
+	margin-bottom: 15px;
+}
+
+.border-one {
+	margin: 43px 0 48px 0;
+	width: 308px;
+	height: 222px;
+	border: 1px solid #d4d4d4;
+	padding: 27px 30px 30px 30px;
+}
+
+.shadow {
+	margin: 43px 0 48px 0;
+	width: 308px;
+	height: 222px;
+	border-radius: 15px;
+	box-shadow: 0 0 18px rgb(0 0 0 / 42%);
+	padding: 27px 30px 30px 30px;
+}
+
+.border-two {
+	margin: 43px 0 48px 0;
+	width: 308px;
+	height: 249px;
+	border: 1px solid #d4d4d4;
+	padding: 27px 30px 30px 30px;
+}
+
+.border-two p {
+	margin-bottom: 10px;
+}
+.more {
+	font-weight: bold;
+	color: #22a2ec;
+	text-decoration: none;
+}
+
+.second-two {
+	display: flex;
+}
+
+.profile {
+	width: 360px;
+	height: 453px;
+}
+
+.form input {
+	border: 1px solid #d6d6d6;
+	font-size: 15px;
+	color: #a2a3a4;
+	width: 239px;
+	padding: 15px 24px;
+	background: transparent;
+	font-family: Arial, Tahoma, sans-serif;
+	margin-bottom: 13px;
+}
+
+.send {
+	margin-top: 23px;
+	margin-bottom: 20px;
+	background: #ebce0d;
+	font-size: 15px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	display: block;
+	width: 166px;
+	text-align: center;
+	padding: 13px 0;
+	border: none;
+	font-family:  Arial, Tahoma, sans-serif;
+	cursor: pointer;
+}
+
+textarea {
+	overflow: auto;
+	resize: none;
+	width: 359px;
+	border: 1px solid #d6d6d6;
+	font-size: 15px;	
+	color: #a2a3a4;
+	padding: 11px 24px 75px 24px;
+	font-family: Arial, Tahoma, sans-serif;
+}
+
+.data {
+	color: #84898d;
+	font-size: 12px;
+}
+
+.card {
+	font-size: 14px;
+	display: flex;
+	background: #184c6b;
+	color: #c0ddee;
+	border-radius: 12px;
+	width: 547px;
+	padding: 37px 53px 37px 43px;
+}
+
+.card-one {
+	width: 207px;
+	margin-right: 39px;
+}
+
+.card-two {
+	margin-top: 43px;
+}
+
+.subtitle {
+	text-transform: uppercase
+}
+
+.card-one p {
+	margin: 25px 0 22px 0;
+}
